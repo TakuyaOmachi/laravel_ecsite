@@ -134,7 +134,7 @@ class ImageController extends Controller
 
         return redirect()
         ->route('owner.images.index')
-        ->with(['message' => '画像をを削除しました。',
+        ->with(['message' => '画像を削除しました。',
         'status' => 'alert']);
     }
 }
